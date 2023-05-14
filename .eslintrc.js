@@ -5,5 +5,11 @@ module.exports = {
   rules: {
     'import/prefer-default-export': 'off',
     'import/extensions': ['off'],
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto'
+      }
+    ]
   }
 };
